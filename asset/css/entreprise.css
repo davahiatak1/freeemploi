@@ -1,0 +1,51 @@
+
+.card {
+    height: 375px;
+    padding: 80px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 0.6s;
+    width: 630px;
+}
+.front,
+.back {
+    backface-visibility: hidden;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 20px 20px 0px rgba(0, 0, 0, .3);
+    height: 375px;
+    left: 0;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    width: 630px;
+}
+
+
+
+/*
+#biz-card:checked + .card {
+    transform: rotateX(180deg);
+}*/
+
+.social {
+    background:  no-repeat;
+    bottom: 10px;
+    height: 46px;
+    padding-left: 56px;
+    position: absolute;
+    width: 225px;
+}
+
+.social {
+    background: none;
+    right: 0;
+}
+
+.social img {
+    height: 38px;
+    margin-right: 10px;
+    width: 38px;
+}
+
+

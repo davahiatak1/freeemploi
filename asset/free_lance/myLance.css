@@ -1,0 +1,46 @@
+.popular-grid {
+    padding: 0 !important;
+	background: #eee;
+}
+.popular-text i {
+    font-size: 3.5em;
+    margin-top: 0.8em;
+    color:#2baf2b;
+}
+.popular-text {
+    text-align: center;
+}
+.popular-grid:hover img {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.popular-grid img {
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+}
+.popular-grid h5 {
+    font-size: 1.6em;
+    color: #111;
+    padding: 1em 2em 0em;
+    line-height: 1.4em;
+}
+.popular-grid .sec h5 {
+    color: #fff;
+}
+.popular-grid p {
+    font-size: 1em;
+    line-height: 1.9em;
+    padding: 1em 1em 2em;
+    color: #777;
+}
+.popular-grid:nth-child(2) {
+    margin-top: 6em;
+	background:#22e27d;
+}
+.popular-grid:nth-child(3) {
+    margin-top: 2em;
+}
